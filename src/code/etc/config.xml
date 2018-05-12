@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_AnonymizeIP>
+            <version>1.0.0.0</version>
+        </Loewenstark_AnonymizeIP>
+    </modules>
+    <global>
+        <models>
+            <lanonymizeip>
+                <class>Loewenstark_AnonymizeIP_Model</class>
+            </lanonymizeip>
+        </models>
+        <helpers>
+            <lanonymizeip>
+                <class>Loewenstark_AnonymizeIP_Helper</class>
+            </lanonymizeip>
+        </helpers>
+    </global>
+</config>
